@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android_club_info</string>
+    <string name="andy_about">Anurag Android Club (AAC) was initiated with the motto of developing mobile applications on Android technology for the common people needs in daily life.</string>
+    <string name="null_about">Our main objective is to introduce students to real world problems and usecases in the field of InfoSec.Following our club’s motto, in today’s world of growing cyber crime, we train young minds to be acutely aware of the world of information security and also emergent technologies like BlockChain to contribute in building a Cyber Secure India.</string>
+    <string name="data_about">The Data Analytics Club’s (DAC) mission is to focus on career development and equip students with the right skills and tools that will enable them to develop/apply relevant analytics-driven solutions. In pursuit of this goal, we will provide hands-on experience in business analytics through, learning, events, program simulations, and guest lectures.</string>
+    <string name="iot_about">The Internet Of Things Club is a place where you can find the latest information around The Internet Of Things. From news, ideas where the IOT can take us, to examples from everyday applications. We are like the Internet Of Things, a Club open to everyone and everything.</string>
+    <string name="malai_about">We, The club of Machine Learning and Artificial Intelligence enrich the students who are fond of learning how M.L. and A.I. make the world a better place.Students will have contact with the Industry level people delegates who give insight about what is happening in the current software trends and how they progress making the student learn up-to date technologies with regard to A.I. and M.L.</string>
+
+</resources>

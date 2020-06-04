@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lin_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5sp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240sp"
+            android:layout_margin="5sp"
+            android:src="@drawable/android_logo" />
+
+        <Button
+            android:id="@+id/andy_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textSize="40sp"
+            android:layout_margin="8sp"
+            android:background="#ffffff"
+            android:textColor="#ff005d"
+            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/andy_about_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/andy_about"
+            android:textSize="30sp"
+            android:textAlignment="gravity"
+            android:textStyle="normal"
+            android:layout_marginLeft="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginBottom="8sp"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/andy_eve_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Events"
+            android:textSize="40sp"
+            android:layout_margin="8sp"
+            android:background="#ffffff"
+            android:textColor="#ff005d"
+            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+
+        <ImageView
+            android:id="@+id/andy_eve_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/event_1_andy"
+            android:layout_marginTop="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginLeft="8sp"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/andy_eve_1_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inauguration\nOur Humble Beginnings"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginLeft="8sp"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/andy_eve_2"
+            android:layout_width="match_parent"
+            android:layout_height="240sp"
+            android:src="@drawable/event_2_andy"
+            android:layout_marginTop="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginLeft="8sp"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/andy_eve_2_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workshop on\nBasics of Android Development"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginLeft="8sp"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/andy_eve_3"
+            android:layout_width="match_parent"
+            android:layout_height="240sp"
+            android:src="@drawable/event_3_andy"
+            android:layout_marginTop="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginLeft="8sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/andy_eve_3_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FDP on Android\n and Latest Technologies"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginLeft="8sp"
+            android:visibility="gone"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apps"
+            android:textSize="40sp"
+            android:layout_margin="8sp"
+            android:background="#ffffff"
+            android:textColor="#ff005d"
+            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+
+        <Button
+            android:id="@+id/andy_achieve_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Achievements"
+            android:textSize="40sp"
+            android:layout_margin="8sp"
+            android:background="#ffffff"
+            android:textColor="#ff005d"
+            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+
+        <ImageView
+            android:id="@+id/andy_achieve_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/achieve_1_andy"
+            android:layout_marginTop="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginLeft="8sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/andy_achieve_1_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4 Students selected\n as Finalists in NADC"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginLeft="8sp"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/andy_achieve_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/achieve_2_andy"
+            android:layout_marginTop="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginLeft="8sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/andy_achieve_2_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Certificate of merit by NADC"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="8sp"
+            android:layout_marginRight="8sp"
+            android:layout_marginLeft="8sp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/andy_team_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team"
+            android:textSize="40sp"
+            android:layout_margin="8sp"
+            android:background="#ffffff"
+            android:textColor="#ff005d"
+            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+
+        <TextView
+            android:id="@+id/andy_team_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="G.Alekhya - President\nNithya - Vice President\nV.Supriya - Technical Secretary\nNagesh - General Secretary\nAbhijeet - Marketing Coordinator\nRohit - Treasurer\nRavi Teja - Documentation\nNeha - Designer"
+            android:textSize="20sp"
+            android:layout_marginBottom="5sp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

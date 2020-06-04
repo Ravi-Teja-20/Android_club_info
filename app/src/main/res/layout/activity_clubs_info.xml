@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2sp"
+    android:background="@drawable/bg2"
+    tools:context=".Clubs_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8sp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/android_club_btn"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:text="android club"
+            android:textSize="30sp"
+            android:background="#ffffff"/>
+
+        <Button
+            android:id="@+id/iot_club_btn"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:text="Iot club"
+            android:textSize="30sp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/data_club_btn"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:text="Data Analytics club"
+            android:textSize="30sp"
+            android:background="#ffffff"/>
+
+        <Button
+            android:id="@+id/malai_club_btn"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:text="malai club"
+            android:textSize="30sp"
+            android:background="#ffffff"/>
+
+        <Button
+            android:id="@+id/null_club_btn"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:text="null club"
+            android:textSize="30sp"
+            android:background="#ffffff"/>
+
+        <Button
+            android:id="@+id/cloud_club_btn"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:text="cloud club"
+            android:textSize="30sp"
+            android:background="#ffffff"/>
+
+        <Button
+            android:id="@+id/web_club_btn"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_marginBottom="25sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="5sp"
+            android:text="Web club"
+            android:textSize="30sp"
+            android:background="#ffffff"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
