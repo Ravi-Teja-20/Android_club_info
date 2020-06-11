@@ -200,6 +200,7 @@
             android:visibility="gone"/>
 
         <Button
+            android:id="@+id/null_team_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Team"
@@ -209,6 +210,17 @@
             android:textColor="#ff005d"
             android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
 
+        <TextView
+            android:id="@+id/null_team_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="P Vinaya Sree - Faculty Lead\n\nN Manikya Arun - President\n\nJ Vasundhara - Vice President Membership\n\nK Hamsini - Vice President Education and Training\n\nAnjan Kumar - Treasurer\n\nSrikar - Vice President Public Relations\n\nP Hemanth Kumar - Event Hospitality\n\nPattabhi - Event Hospitality\n\nNagesh - Event Hospitality\n\nHarsha Vardhan - Organizer\n\nRavi Teja - Organizer"
+            android:textSize="20sp"
+            android:layout_marginBottom="5sp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:visibility="gone"/>
 
 
 

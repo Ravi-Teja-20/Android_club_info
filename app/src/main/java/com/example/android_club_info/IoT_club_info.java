@@ -12,9 +12,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class IoT_club_info extends AppCompatActivity {
-    Button iot1,iot2,iot3;
+    Button iot1,iot2,iot3,iot4;
     LinearLayout iot_l;
-    TextView iot_v1,iot_v2,iot_v3,iot_v4,iot_v5;
+    TextView iot_v1,iot_v2,iot_v3,iot_v4,iot_v5,iot_v6;
     ImageView iot_img1,iot_img2,iot_img3,iot_img4,iot_img5;
 
 
@@ -28,10 +28,12 @@ public class IoT_club_info extends AppCompatActivity {
         iot_v3 = findViewById(R.id.iot_eve_2_txt);
         iot_v4 = findViewById(R.id.iot_eve_3_txt);
         iot_v5 = findViewById(R.id.iot_achieve_1_txt);
+        iot_v6 = findViewById(R.id.iot_team_txt);
 
         iot1 = findViewById(R.id.iot_about);
         iot2 = findViewById(R.id.iot_eve_btn);
         iot3 =findViewById(R.id.iot_achieve_btn);
+        iot4 = findViewById(R.id.iot_team_btn);
 
         iot_img1 = findViewById(R.id.iot_eve_1);
         iot_img2 = findViewById(R.id.iot_eve_2);
@@ -80,6 +82,18 @@ public class IoT_club_info extends AppCompatActivity {
                 iot_img4.setVisibility(visible ? View.VISIBLE : View.GONE);
                 iot_img5.setVisibility(visible ? View.VISIBLE : View.GONE);
                 iot_v5.setVisibility(visible ? View.VISIBLE : View.GONE);
+            }
+        });
+
+        iot4.setOnClickListener(new View.OnClickListener() {
+            boolean visible;
+            @Override
+            public void onClick(View v) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+                    TransitionManager.beginDelayedTransition(iot_l);
+                }
+                visible = !visible;
+                iot_v6.setVisibility(visible ? View.VISIBLE : View.GONE);
             }
         });
     }

@@ -92,6 +92,17 @@
             android:textColor="#ff005d"
             android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
 
+        <TextView
+            android:id="@+id/malai_team_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dr.A. Obulesh - Head\n\nA. Shashank Raj - President\n\nP. Rahul - Secretary\n\nArunKumar Kudarihal - Vice President Education and Training\n\nV.Anisha Raj - Vice President Membership\n\nDindima Reddy Avula - Treasurer\n\nYashashwini Potu - Vice President Public Relations\n\nAnirudh kumar - Vice President Membership\n\nN.Charan - Treasurer\n\nHruthika.T - \n\nVice President Education and Training\n\nS.Sreeja Reddy - Industry Coordinator\n\nMadhukar - Industry Coordinator\n\nHemanth Erabelli - Vice President Public Relations\n\nY K V Mohanji - Vice President Membership"
+            android:textSize="20sp"
+            android:layout_marginBottom="5sp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:visibility="gone"/>
 
 
 

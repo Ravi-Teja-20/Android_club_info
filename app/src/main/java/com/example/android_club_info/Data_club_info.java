@@ -12,8 +12,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class Data_club_info extends AppCompatActivity {
-    Button dcb1,dcb2,dcb3;
-    TextView dtv1,dtv2,dtv3,dtv4,dtv5;
+    Button dcb1,dcb2,dcb3,dcb4;
+    TextView dtv1,dtv2,dtv3,dtv4,dtv5,dtv6;
     ImageView dim1,dim2,dim3,dim4;
     LinearLayout dcl;
 
@@ -27,12 +27,14 @@ public class Data_club_info extends AppCompatActivity {
         dcb1 = findViewById(R.id.data_about);
         dcb2 = findViewById(R.id.data_eve_btn);
         dcb3 = findViewById(R.id.data_achieve_btn);
+        dcb4 = findViewById(R.id.data_team_btn);
 
         dtv1 = findViewById(R.id.data_about_text);
         dtv2 = findViewById(R.id.data_eve_1_txt);
         dtv3 = findViewById(R.id.data_eve_2_txt);
         dtv4 = findViewById(R.id.data_eve_3_txt);
         dtv5 = findViewById(R.id.data_achieve_1_txt);
+        dtv6 = findViewById(R.id.data_team_txt);
 
         dim1 = findViewById(R.id.data_eve_1);
         dim2 = findViewById(R.id.data_eve_2);
@@ -78,6 +80,18 @@ public class Data_club_info extends AppCompatActivity {
                 visible = !visible;
                 dim4.setVisibility(visible ? View.VISIBLE : View.GONE);
                 dtv5.setVisibility(visible ? View.VISIBLE : View.GONE);
+            }
+        });
+
+        dcb4.setOnClickListener(new View.OnClickListener() {
+            boolean visible;
+            @Override
+            public void onClick(View v) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+                    TransitionManager.beginDelayedTransition(dcl);
+                }
+                visible = !visible;
+                dtv6.setVisibility(visible ? View.VISIBLE : View.GONE);
             }
         });
     }

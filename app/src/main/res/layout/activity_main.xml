@@ -21,45 +21,72 @@
             android:layout_margin="5sp"
             android:src="@drawable/android_logo" />
 
-        <Button
-            android:id="@+id/andy_about"
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5sp"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="About"
-            android:textSize="40sp"
-            android:layout_margin="8sp"
-            android:background="#ffffff"
-            android:textColor="#ff005d"
-            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
-
-
-
+            android:layout_margin="5sp"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:paddingLeft="5sp"/>
 
         <TextView
-            android:id="@+id/andy_about_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/andy_about"
-            android:textSize="30sp"
+            android:textSize="25sp"
+            android:textColor="#000000"
             android:textAlignment="gravity"
-            android:textStyle="normal"
-            android:layout_marginLeft="8sp"
-            android:layout_marginRight="8sp"
-            android:layout_marginBottom="8sp"
-            android:background="#000000"
-            android:textColor="#ffffff"
-            android:visibility="gone"/>
+            android:layout_margin="5sp"
+            android:paddingLeft="5sp"/>
 
-        <Button
-            android:id="@+id/andy_eve_btn"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apps Developed"
+            android:layout_margin="5sp"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:paddingLeft="5sp"/>
+
+        <ImageView
+            android:id="@+id/andy_app_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/career_guide_app"
+            android:onClick="career_guide"
+            android:layout_margin="5sp"/>
+
+        <ImageView
+            android:id="@+id/andy_app_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eventium_app"
+            android:onClick="eventium" />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Events"
-            android:textSize="40sp"
-            android:layout_margin="8sp"
-            android:background="#ffffff"
-            android:textColor="#ff005d"
-            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+            android:layout_margin="5sp"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:paddingLeft="5sp"/>
 
         <ImageView
             android:id="@+id/andy_eve_1"
@@ -68,8 +95,8 @@
             android:src="@drawable/event_1_andy"
             android:layout_marginTop="8sp"
             android:layout_marginRight="8sp"
-            android:layout_marginLeft="8sp"
-            android:visibility="gone"/>
+            android:layout_marginLeft="8sp" />
+
         <TextView
             android:id="@+id/andy_eve_1_txt"
             android:layout_width="match_parent"
@@ -77,21 +104,20 @@
             android:text="Inauguration\nOur Humble Beginnings"
             android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:gravity="center_horizontal"
             android:layout_marginBottom="8sp"
             android:layout_marginRight="8sp"
-            android:layout_marginLeft="8sp"
-            android:visibility="gone"/>
+            android:layout_marginLeft="8sp" />
+
         <ImageView
             android:id="@+id/andy_eve_2"
             android:layout_width="match_parent"
             android:layout_height="240sp"
             android:src="@drawable/event_2_andy"
-            android:layout_marginTop="8sp"
             android:layout_marginRight="8sp"
-            android:layout_marginLeft="8sp"
-            android:visibility="gone"/>
+            android:layout_marginLeft="8sp" />
+
         <TextView
             android:id="@+id/andy_eve_2_txt"
             android:layout_width="match_parent"
@@ -99,12 +125,12 @@
             android:text="Workshop on\nBasics of Android Development"
             android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:gravity="center_horizontal"
             android:layout_marginBottom="8sp"
             android:layout_marginRight="8sp"
-            android:layout_marginLeft="8sp"
-            android:visibility="gone"/>
+            android:layout_marginLeft="8sp" />
+
         <ImageView
             android:id="@+id/andy_eve_3"
             android:layout_width="match_parent"
@@ -112,8 +138,7 @@
             android:src="@drawable/event_3_andy"
             android:layout_marginTop="8sp"
             android:layout_marginRight="8sp"
-            android:layout_marginLeft="8sp"
-            android:visibility="gone"/>
+            android:layout_marginLeft="8sp" />
 
         <TextView
             android:id="@+id/andy_eve_3_txt"
@@ -122,34 +147,22 @@
             android:text="FDP on Android\n and Latest Technologies"
             android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:gravity="center_horizontal"
             android:layout_marginBottom="8sp"
             android:layout_marginRight="8sp"
-            android:layout_marginLeft="8sp"
-            android:visibility="gone"/>
+            android:layout_marginLeft="8sp" />
 
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Apps"
-            android:textSize="40sp"
-            android:layout_margin="8sp"
-            android:background="#ffffff"
-            android:textColor="#ff005d"
-            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
-
-        <Button
-            android:id="@+id/andy_achieve_btn"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Achievements"
-            android:textSize="40sp"
-            android:layout_margin="8sp"
-            android:background="#ffffff"
-            android:textColor="#ff005d"
-            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+            android:layout_margin="5sp"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:paddingLeft="5sp"/>
 
         <ImageView
             android:id="@+id/andy_achieve_1"
@@ -158,22 +171,20 @@
             android:src="@drawable/achieve_1_andy"
             android:layout_marginTop="8sp"
             android:layout_marginRight="8sp"
-            android:layout_marginLeft="8sp"
-            android:visibility="gone"/>
+            android:layout_marginLeft="8sp" />
 
         <TextView
             android:id="@+id/andy_achieve_1_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="4 Students selected\n as Finalists in NADC"
+            android:text="4 Students selected as Finalists in NADC.\nAmong a huge lot of Students for NADC, 4 of our students where selected for the Grand Finale which was held in IIT Madras."
             android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:gravity="center_horizontal"
-            android:layout_marginBottom="8sp"
+            android:layout_marginBottom="18sp"
             android:layout_marginRight="8sp"
-            android:layout_marginLeft="8sp"
-            android:visibility="gone"/>
+            android:layout_marginLeft="8sp" />
 
         <ImageView
             android:id="@+id/andy_achieve_2"
@@ -182,47 +193,45 @@
             android:src="@drawable/achieve_2_andy"
             android:layout_marginTop="8sp"
             android:layout_marginRight="8sp"
-            android:layout_marginLeft="8sp"
-            android:visibility="gone"/>
+            android:layout_marginLeft="8sp"/>
 
         <TextView
             android:id="@+id/andy_achieve_2_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Certificate of merit by NADC"
+            android:text="Certificate of merit by NADC.\nOur stundents receive the Zonal Merit certificate awarded by NADC."
             android:textSize="30sp"
             android:textAlignment="center"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:gravity="center_horizontal"
-            android:layout_marginBottom="8sp"
+            android:layout_marginBottom="18sp"
             android:layout_marginRight="8sp"
-            android:layout_marginLeft="8sp"
-            android:visibility="gone"/>
+            android:layout_marginLeft="8sp" />
 
-        <Button
-            android:id="@+id/andy_team_btn"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Team"
-            android:textSize="40sp"
-            android:layout_margin="8sp"
-            android:background="#ffffff"
-            android:textColor="#ff005d"
-            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+            android:layout_margin="5sp"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:paddingLeft="5sp"/>
 
         <TextView
             android:id="@+id/andy_team_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="G.Alekhya - President\nNithya - Vice President\nV.Supriya - Technical Secretary\nNagesh - General Secretary\nAbhijeet - Marketing Coordinator\nRohit - Treasurer\nRavi Teja - Documentation\nNeha - Designer"
+            android:text="Mrs. M.Madhavi - Faculty Lead\n\nG.Alekhya - President\n\nNithya - Vice President\n\nV.Supriya - Technical Secretary\n\nNagesh - General Secretary\n\nAbhijeet - Marketing Coordinator\n\nRohit - Treasurer\n\nRavi Teja - Documentation\n\nNeha - Designer"
             android:textSize="20sp"
             android:layout_marginBottom="5sp"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textAlignment="center"
-            android:gravity="center_horizontal"
-            android:visibility="gone"/>
+            android:gravity="center_horizontal" />
 
     </LinearLayout>
 
+    </LinearLayout>
 
 </ScrollView>

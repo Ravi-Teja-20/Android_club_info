@@ -82,6 +82,7 @@
             android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
 
         <Button
+            android:id="@+id/web_team_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Team"
@@ -91,7 +92,17 @@
             android:textColor="#ff005d"
             android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"/>
 
-
+        <TextView
+            android:id="@+id/web_team_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mr. Pallam Ravi - Faculty Lead\n\nMr. Sainath Omdas - President\n\nMr. Manideep Pasuladi - Vice President\n\nMr. Akhil Ganti - Secretary\n\nMr. Manikanta Reddy - Treasurer\n\nMr.Rakesh - Event Hospitality\n\nL. Trilochani - Event Hospitality"
+            android:textSize="20sp"
+            android:layout_marginBottom="5sp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:visibility="gone"/>
 
 
 

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ActionBar;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.transition.TransitionManager;
@@ -16,15 +17,18 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    ViewGroup v1;
+   /* ViewGroup v1;
     Button b1,b2,b3,b4;
     TextView an_tv1,an_tv2,an_tv3,an_tv4,an_tv5,an_tv6,an_tv7;
-    ImageView eve1,eve2,eve3,achieve1,achieve2;
+    ImageView eve1,eve2,eve3,achieve1,achieve2;*/
+   ImageView app1,app2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        v1 = findViewById(R.id.lin_layout_1);
+        app1 = findViewById(R.id.andy_app_1);
+        app2 = findViewById(R.id.andy_app_2);
+      /*  v1 = findViewById(R.id.lin_layout_1);
         b1 = findViewById(R.id.andy_about);
         b2 = findViewById(R.id.andy_eve_btn);
         b3 = findViewById(R.id.andy_achieve_btn);
@@ -99,7 +103,15 @@ public class MainActivity extends AppCompatActivity {
                 visible = !visible;
                 an_tv7.setVisibility(visible ? View.VISIBLE : View.GONE);
             }
-        });
+        }); */
+    }
+    public void career_guide(View view){
+        Intent i1 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.androidclubagi.career"));
+        startActivity(i1);
+    }
 
+    public void eventium(View view){
+        Intent i2 = new Intent(Intent.ACTION_VIEW,Uri.parse("https://play.google.com/store/apps/details?id=com.andro.myappyy"));
+        startActivity(i2);
     }
 }
