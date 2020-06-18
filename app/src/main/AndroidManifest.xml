@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ISTE_chapter"></activity>
+        <activity android:name=".IEEE_chapter" />
+        <activity android:name=".CSI_chapter" />
+        <activity android:name=".ACM_chapter" />
         <activity android:name=".Clubs_info">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,9 +35,7 @@
         <activity android:name=".DSC_club_info" />
         <activity android:name=".IoT_club_info" />
         <activity android:name=".Web_club_info" />
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

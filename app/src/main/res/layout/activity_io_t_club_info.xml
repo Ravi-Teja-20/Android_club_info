@@ -191,7 +191,7 @@
             android:id="@+id/iot_team_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mr. G.Balaram,Assistant Proffessor,Faculty Coordinator\n\nMs.Anisha Arya - President\n\nMr. TVVS.Naveen - Vice President Education and training\n\nMr.B.Shashank - Vice President Membership\n\nMr.Jaidi Tarun Reddy - Vice President Public Relations\n\nMr.N.Praneeth - Secretary\n\nMs.Ramya Sree - Treasurer\n\nMr.N.Uthej Kumar - Immediate Past President\n\nMs.A.Veda - Event Hospitality"
+            android:text="Mr. G.Balaram,Assistant Professor,Faculty Coordinator\n\nMs.Anisha Arya - President\n\nMr. TVVS.Naveen - Vice President Education and training\n\nMr.B.Shashank - Vice President Membership\n\nMr.Jaidi Tarun Reddy - Vice President Public Relations\n\nMr.N.Praneeth - Secretary\n\nMs.Ramya Sree - Treasurer\n\nMr.N.Uthej Kumar - Immediate Past President\n\nMs.A.Veda - Event Hospitality"
             android:textSize="20sp"
             android:layout_marginBottom="5sp"
             android:textColor="#ffffff"
